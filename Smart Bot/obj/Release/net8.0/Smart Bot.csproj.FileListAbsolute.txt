@@ -1,0 +1,17 @@
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\bin\Release\net8.0\Smart Bot.exe
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\bin\Release\net8.0\Smart Bot.deps.json
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\bin\Release\net8.0\Smart Bot.runtimeconfig.json
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\bin\Release\net8.0\Smart Bot.dll
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\bin\Release\net8.0\Smart Bot.pdb
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\bin\Release\net8.0\Telegram.Bot.dll
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\obj\Release\net8.0\Smart Bot.csproj.AssemblyReference.cache
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\obj\Release\net8.0\Smart Bot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\obj\Release\net8.0\Smart Bot.AssemblyInfoInputs.cache
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\obj\Release\net8.0\Smart Bot.AssemblyInfo.cs
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\obj\Release\net8.0\Smart Bot.csproj.CoreCompileInputs.cache
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\obj\Release\net8.0\Smart Bot.csproj.Up2Date
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\obj\Release\net8.0\Smart Bot.dll
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\obj\Release\net8.0\refint\Smart Bot.dll
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\obj\Release\net8.0\Smart Bot.pdb
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\obj\Release\net8.0\Smart Bot.genruntimeconfig.cache
+C:\Users\GameDaler\source\repos\Smart Bot\Smart Bot\obj\Release\net8.0\ref\Smart Bot.dll
