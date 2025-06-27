@@ -11,7 +11,7 @@ using Telegram.Bot.Types.ReplyMarkups;
 
 
 
-using var stream = File.OpenRead("assets/photo.jpg");
+using var stream = File.OpenRead("Assets/photo.jpg");
 var photo = new InputFileStream(stream, "photo.jpg");
 Console.WriteLine("Фото загружено в оперативную память!");
 
