@@ -8,8 +8,12 @@ using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 
 // Загружаем фото в память (например, при старте бота)
-using var stream = File.OpenRead("photo.jpg");
+
+
+
+using var stream = File.OpenRead("assets/photo.jpg");
 var photo = new InputFileStream(stream, "photo.jpg");
+Console.WriteLine("Фото загружено в оперативную память!");
 
 TelegramBotClient botClient = new TelegramBotClient("7678536168:AAGeITsfuERSXTLxqLJDlS99G4kve1AU-KI");
 CancellationTokenSource cts = new CancellationTokenSource();
@@ -21,7 +25,7 @@ botClient.OnError += HandleErrorAsync;
 var me = await botClient.GetMe();
 
 Console.WriteLine($"Бот @{me.Username} запущен!");
-Console.WriteLine("Нажмите любую клавишу для остановки...1");
+Console.WriteLine("Нажмите любую клавишу для остановки...");
 Console.ReadKey();
 
 
