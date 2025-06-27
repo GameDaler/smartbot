@@ -1,17 +1,15 @@
-# Используем официальный .NET SDK
+# Сборка
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
-# Копируем файлы проекта и восстанавливаем зависимости
 COPY *.csproj ./
 RUN dotnet restore
 
-# Копируем оставшиеся файлы и собираем проект
 COPY . ./
-RUN dotnet publish -c Release -o out
+RUN dotnet publish -c Release -o /app/out
 
-# Финальный образ для запуска
-FROM mcr.microsoft.com/dotnet/runtime:8.0
+# Запуск
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build /app/out ./
-ENTRYPOINT ["dotnet", "Smart Bot.dll"]
+ENTRYPOINT ["dotnet", "Smart_Bot.dll"]
