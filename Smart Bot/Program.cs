@@ -26,7 +26,7 @@ var me = await botClient.GetMe();
 
 Console.WriteLine($"Бот @{me.Username} запущен!");
 Console.WriteLine("Нажмите любую клавишу для остановки...");
-Console.ReadKey();
+Thread.Sleep(Timeout.Infinite);
 
 
 // Остановка бота
