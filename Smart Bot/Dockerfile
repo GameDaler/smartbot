@@ -6,6 +6,7 @@ COPY *.csproj ./
 RUN dotnet restore
 
 COPY . ./
+COPY Assets ./Assets
 RUN dotnet publish -c Release -o /app/out
 
 # Запуск
